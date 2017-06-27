@@ -36,7 +36,8 @@ namespace ApiExample.Controllers
 			{
 				return NotFound();
 			}
-			return new ObjectResult(item);
+			//return new ObjectResult(item);
+			return new ObjectResult(item.Rate);
 		}
 	}
 }
